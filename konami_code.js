@@ -4,10 +4,10 @@ function init() {
   // Write your JavaScript code inside the init() function
 const body= document.querySelector('body')
 
-let index=0
-
   body.addEventListener('keydown',onKeyDownHandler)
 }
+
+let index=0
 
   function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
